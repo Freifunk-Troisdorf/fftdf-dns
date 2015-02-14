@@ -1,0 +1,25 @@
+// Zone declarations for Freifunk Troisdorf
+
+zone "fftdf" {
+    type slave;
+    masters { 10.188.1.100; }
+    file "/var/lib/bind/fftdf_bak/db.fftdf.bak";
+};
+
+zone "nodes.fftdf" {
+    type slave;
+    masters { 10.188.1.100; }
+    file "/var/lib/bind/fftdf_bak/db.nodes.fftdf.bak";
+};
+
+zone "188.10.in-addr.arpa" {
+    type slave;
+    masters { 10.188.1.100; }
+    file "/var/lib/bind/fftdf_bak/db.188.10.bak";
+};
+
+zone "5.0.4.7.9.2.b.a.e.7.4.7.0.a.d.f.ip6.arpa" {
+    type slave;
+    masters { 10.188.1.100; }
+    file "/var/log/bind/fftdf_bak/db.5.0.4.7.9.2.b.a.e.7.4.7.0.a.d.f.ip6.arpa.bak";
+};

@@ -1,0 +1,4 @@
+options {
+    allow-transfer { 10.188.1.23; };
+    notify yes;
+};
