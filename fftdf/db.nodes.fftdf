@@ -1,0 +1,31 @@
+$TTL 600  ; 10 minutes
+@     IN SOA  dns1.infra.fftdf. root.fftdf. (
+          1428319801 ; serial
+          600        ; refresh (10min)
+          30         ; retry (30s)
+          3600       ; expire (1 hour)
+          60         ; minimum (1 minute)
+          )
+      NS  dns1.infra.fftdf.
+      
+cryptro8	AAAA	fda0:747e:ab29:7405:eade:27ff:fe58:e404
+m4rconi03	AAAA	fda0:747e:ab29:7405:12fe:edff:fec1:c99a
+Spich-Pirat2	AAAA	fda0:747e:ab29:7405:ea94:f6ff:fef5:7e1a
+Server-gluon-Gateway	AAAA	fda0:747e:ab29:7405:7087:68ff:fee7:e5ba
+trolug	AAAA	fda0:747e:ab29:7405:ea94:f6ff:fe42:ec60
+Nudel	AAAA	fda0:747e:ab29:7405:fa1a:67ff:feab:ec52
+tdf-c04a0051b169	AAAA	fda0:747e:ab29:7405:c24a:ff:fe51:b169
+cryptro4	AAAA	fda0:747e:ab29:7405:c66e:1fff:fe7e:b544
+gateway1	AAAA	fda0:747e:ab29:7405::5
+AmSteinweg42Seidel1	AAAA	fda0:747e:ab29:7405:c66e:1fff:fec9:db16
+cryptro7	AAAA	fda0:747e:ab29:7405:eade:27ff:fef2:e8c6
+Brauhaeuschen-Lohmar	AAAA	fda0:747e:ab29:7405:eade:27ff:fef2:ebb4
+cryptro1-test-wdr3600	AAAA	fda0:747e:ab29:7405:eade:27ff:fe65:9f2e
+m4rconi01	AAAA	fda0:747e:ab29:7405:b248:7aff:febe:eb12
+Fronhof2	AAAA	fda0:747e:ab29:7405:c66e:1fff:fe7e:b372
+magda	AAAA	fda0:747e:ab29:7405:ea94:f6ff:fef5:801c
+Fronhof1	AAAA	fda0:747e:ab29:7405:c66e:1fff:fe7e:b54c
+Spich-Pirat	AAAA	fda0:747e:ab29:7405:12fe:edff:feaf:c876
+Rocky53639	AAAA	fda0:747e:ab29:7405:ea94:f6ff:fef5:8066
+sys-Freifunk	AAAA	fda0:747e:ab29:7405:6a72:51ff:fe20:b07f
+Test3600	AAAA	fda0:747e:ab29:7405:ea94:f6ff:fe05:fdb2

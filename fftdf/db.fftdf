@@ -1,0 +1,46 @@
+;; db.fftdf
+;; Forwardlookupzone für .fftdf
+;;
+$TTL 2D
+@       IN      SOA     fftdf. root.fftdf. (
+                        2015022102      ; Serial
+                                8H      ; Refresh
+                                2H      ; Retry
+                                4W      ; Expire
+                                3H )    ; NX (TTL Negativ Cache)
+
+@                               IN      NS      dns1.infra.fftdf.
+                                IN      A       10.188.1.100
+                                IN      AAAA	fda0:747e:ab29:7405::100
+localhost			IN	A    	127.0.0.1
+				IN      AAAA    ::1
+dns1.infra			IN	A       10.188.1.100
+                                IN      AAAA    fda0:747e:ab29:7405::100
+dns2.infra                      IN      A       10.188.1.23
+                                IN      AAAA    fda0:747e:ab29:7405::23
+nextnode			IN      A       10.188.0.1
+				IN      AAAA    fda0:747e:ab29:7405::1
+;; Update Servers
+update1.infra			IN      AAAA    fda0:747e:ab29:7405::22
+update2.infra			IN      AAAA    fda0:747e:ab29:7405::23
+update3.infra			IN      AAAA    fda0:747e:ab29:7405::24
+update4.infra			IN      AAAA    fda0:747e:ab29:7405::25
+;; Map Server
+map.infra                       IN      AAAA    fda0:747e:ab29:7405::21
+				IN      A       10.188.1.21
+;; Gateways
+gateway1.infra                  IN      AAAA    fda0:747e:ab29:7405::101
+				IN      A       10.188.1.1
+
+;; Services/Webseiten
+firmware                        IN      AAAA    fda0:747e:ab29:7405::21
+                                IN      A       10.188.1.21
+map                             IN      AAAA    fda0:747e:ab29:7405::21
+                                IN      A       10.188.1.21
+monitoring                      IN      AAAA    fda0:747e:ab29:7405::21
+                                IN      A       10.188.1.21
+fmon                            IN      AAAA    fda0:747e:ab29:7405::21
+                                IN      A       10.188.1.21
+;; Sonstiges
+marconi.infra                   IN      AAAA    fda0:747e:ab29:7405::23
+                                IN      A       10.188.1.23
