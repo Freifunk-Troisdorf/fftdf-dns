@@ -45,5 +45,6 @@ ping                            IN      A       10.188.1.21
                                 IN      AAAA    fda0:747e:ab29:7405::21
 pad				IN      A	10.188.1.40
 ;; Sonstiges
-marconi.infra                   IN      AAAA    fda0:747e:ab29:7405::23
+marconi                         IN      AAAA    fda0:747e:ab29:7405::23
                                 IN      A       10.188.1.23
+
