@@ -47,4 +47,6 @@ pad				IN      A	10.188.1.40
 ;; Sonstiges
 marconi                         IN      AAAA    fda0:747e:ab29:7405::23
                                 IN      A       10.188.1.23
+loki                            IN      AAAA    fda0:747e:ab29:7405::41
+                                IN      A       10.188.1.41
 
