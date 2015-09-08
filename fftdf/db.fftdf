@@ -28,9 +28,6 @@ update4.infra			IN      AAAA    fda0:747e:ab29:7405::25
 ;; Map Server
 map.infra                       IN      AAAA    fda0:747e:ab29:7405::21
 				IN      A       10.188.1.21
-;; Gateways
-gateway1.infra                  IN      AAAA    fda0:747e:ab29:7405::101
-				IN      A       10.188.1.1
 
 ;; Services/Webseiten
 firmware                        IN      AAAA    fda0:747e:ab29:7405::21
