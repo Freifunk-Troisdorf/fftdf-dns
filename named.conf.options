@@ -24,7 +24,7 @@ options {
 	auth-nxdomain no;    # conform to RFC1035
 	listen-on-v6 { any; };
 
-    allow-transfer { 10.188.1.23; };
+    allow-transfer { 10.188.1.23; 10.188.1.21; };
     notify yes;
 };
 
