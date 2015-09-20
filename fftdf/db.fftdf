@@ -40,6 +40,8 @@ fmon                            IN      AAAA    fda0:747e:ab29:7405::21
                                 IN      A       10.188.1.21
 ping                            IN      A       10.188.1.21
                                 IN      AAAA    fda0:747e:ab29:7405::21
+ntp2.infra                      IN      A       10.188.1.23
+                                IN      AAAA    fda0:747e:ab29:7405::23
 google				IN	A	10.188.1.75
 sys                             IN      A       10.188.1.75
 rpad                            IN      A       10.188.1.42
