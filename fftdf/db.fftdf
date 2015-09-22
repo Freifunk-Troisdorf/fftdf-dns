@@ -3,7 +3,7 @@
 ;;
 $TTL 600
 @       IN      SOA     fftdf. root.fftdf. (
-                        2015584538      ; Serial
+                        2015584539      ; Serial
                                 8H      ; Refresh
                                 2H      ; Retry
                                 4W      ; Expire
@@ -40,6 +40,8 @@ fmon                            IN      AAAA    fda0:747e:ab29:7405::21
                                 IN      A       10.188.1.21
 ping                            IN      A       10.188.1.21
                                 IN      AAAA    fda0:747e:ab29:7405::21
+ntp1.infra                      IN      A       10.188.1.24
+                                IN      AAAA    fda0:747e:ab29:7405::24
 ntp2.infra                      IN      A       10.188.1.23
                                 IN      AAAA    fda0:747e:ab29:7405::23
 google				IN	A	10.188.1.75
