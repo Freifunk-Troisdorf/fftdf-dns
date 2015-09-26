@@ -35,8 +35,6 @@ firmware                        IN      AAAA    fda0:747e:ab29:7405::21
                                 IN      A       10.188.1.21
 map                             IN      AAAA    fda0:747e:ab29:7405::21
                                 IN      A       10.188.1.21
-monitoring                      IN      AAAA    fda0:747e:ab29:7405::21
-                                IN      A       10.188.1.21
 fmon                            IN      AAAA    fda0:747e:ab29:7405::21
                                 IN      A       10.188.1.21
 ping                            IN      A       10.188.1.21
