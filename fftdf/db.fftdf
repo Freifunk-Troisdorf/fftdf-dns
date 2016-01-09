@@ -11,40 +11,38 @@ $TTL 600
 
 @                               IN      NS      dns1.infra.fftdf.
                                 IN      A       10.188.1.100
-                                IN      AAAA	fda0:747e:ab29:7405::100
+                                IN      AAAA	2a03:2260:121::100
 localhost			IN	A    	127.0.0.1
 				IN      AAAA    ::1
 dns1.infra			IN	A       10.188.1.100
-                                IN      AAAA    fda0:747e:ab29:7405::100
+                                IN      AAAA    2a03:2260:121::100
 dns2.infra                      IN      A       10.188.1.23
-                                IN      AAAA    fda0:747e:ab29:7405::23
+                                IN      AAAA    2a03:2260:121::23
 nextnode			IN      A       10.188.0.1
-				IN      AAAA    fda0:747e:ab29:7405::1
+				IN      AAAA    2a03:2260:121::1
 ;; Update Servers
-update1.infra			IN      AAAA    fda0:747e:ab29:7405::22
-update2.infra			IN      AAAA    fda0:747e:ab29:7405::23
-update3.infra			IN      AAAA    fda0:747e:ab29:7405::24
+update1.infra			IN      AAAA    2a03:2260:121::22
+update2.infra			IN      AAAA    2a03:2260:121::23
+update3.infra			IN      AAAA    2a03:2260:121::24
 ;; Map Server
-map.infra                       IN      AAAA    fda0:747e:ab29:7405::21
+map.infra                       IN      AAAA    2a03:2260:121::21
 				IN      A       10.188.1.21
 monitoring			IN      A	10.188.1.25
-				IN 	AAAA	fda0:747e:ab29:7405::25
+				IN 	AAAA	2a03:2260:121::25
 
 ;; Services/Webseiten
-firmware                        IN      AAAA    fda0:747e:ab29:7405::21
+map                             IN      AAAA    2a03:2260:121::21
                                 IN      A       10.188.1.21
-map                             IN      AAAA    fda0:747e:ab29:7405::21
-                                IN      A       10.188.1.21
-fmon                            IN      AAAA    fda0:747e:ab29:7405::21
+fmon                            IN      AAAA    2a03:2260:121::21
                                 IN      A       10.188.1.21
 ping                            IN      A       10.188.1.21
-                                IN      AAAA    fda0:747e:ab29:7405::21
+                                IN      AAAA    2a03:2260:121::21
 ntp1.infra                      IN      A       10.188.1.24
-                                IN      AAAA    fda0:747e:ab29:7405::24
+                                IN      AAAA    2a03:2260:121::24
 ntp2.infra                      IN      A       10.188.1.23
-                                IN      AAAA    fda0:747e:ab29:7405::23
+                                IN      AAAA    2a03:2260:121::23
 minetest                        IN      A       10.188.1.23
-                                IN      AAAA    fda0:747e:ab29:7405::23
+                                IN      AAAA    2a03:2260:121::23
 google				IN	A	10.188.1.75
 sys                             IN      A       10.188.1.75
 rpad                            IN      A       10.188.1.42
@@ -53,10 +51,10 @@ pad				IN      A	10.188.1.40
 database                        IN      A       10.188.1.27
 *.database                      IN      A       10.188.1.27
 ;; Sonstiges
-marconi                         IN      AAAA    fda0:747e:ab29:7405::23
+marconi                         IN      AAAA    2a03:2260:121::23
                                 IN      A       10.188.1.23
-*.marconi                       IN      AAAA    fda0:747e:ab29:7405::23
+*.marconi                       IN      AAAA    2a03:2260:121::23
                                 IN      A       10.188.1.23
-loki                            IN      AAAA    fda0:747e:ab29:7405::41
+loki                            IN      AAAA    2a03:2260:121::41
                                 IN      A       10.188.1.41
 
